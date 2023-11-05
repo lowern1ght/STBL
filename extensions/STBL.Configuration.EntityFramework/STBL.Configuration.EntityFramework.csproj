@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Version>0.1.0</Version>
+        <Title>STBL.Configuration.EntityFramework</Title>
+        <Description>the package of additions to Microsoft.Configuration, Microsoft.DI allowing it to be more convenient to configure database connection strings in the form of fields in a json file</Description>
+        <PackageIcon>icon.jpg</PackageIcon>
+        <PackageTags>extensions, entity-framework, configuration</PackageTags>
+        <Authors>.stbl@lowern1ght</Authors>
+        <Copyright>MIT</Copyright>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.13" />
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="7.0.4" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="7.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
+      <PackageReference Include="Npgsql" Version="7.0.6" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="icon.jpg">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="README.md" Pack="true" PackagePath="\" />
+      <AdditionalFiles Include="README.md">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </AdditionalFiles>
+    </ItemGroup>
+
+    <PropertyGroup>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+</Project>

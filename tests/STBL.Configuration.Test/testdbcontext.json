@@ -1,0 +1,9 @@
+﻿{
+    "TestDbContext": {
+        "Host": "localhost",
+        "Port": 5432,
+        "Database": "test-db",
+        "Username": "test-user",
+        "Password": "f26dd8ad74094191a254a01f04c3dd59"
+    }
+}

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "extensions", "extensions", "{079A5D5E-CFCD-49AC-A02F-D9C96F74B75F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STBL.Configuration.EntityFramework", "extensions\STBL.Configuration.EntityFramework\STBL.Configuration.EntityFramework.csproj", "{B5CE5F02-91AA-4E4E-8DB6-1564E0467276}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A10D1028-10E5-4F2A-ABCC-EA3D61C69291}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STBL.Configuration.Test", "tests\STBL.Configuration.Test\STBL.Configuration.Test.csproj", "{568B6B6E-CE75-48D3-A887-6B4BC0FA5C90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "repo", "repo", "{59927F8C-37B9-44F8-9BEC-F6234F9D01A8}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B5CE5F02-91AA-4E4E-8DB6-1564E0467276} = {079A5D5E-CFCD-49AC-A02F-D9C96F74B75F}
+		{568B6B6E-CE75-48D3-A887-6B4BC0FA5C90} = {A10D1028-10E5-4F2A-ABCC-EA3D61C69291}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5CE5F02-91AA-4E4E-8DB6-1564E0467276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5CE5F02-91AA-4E4E-8DB6-1564E0467276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5CE5F02-91AA-4E4E-8DB6-1564E0467276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5CE5F02-91AA-4E4E-8DB6-1564E0467276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{568B6B6E-CE75-48D3-A887-6B4BC0FA5C90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{568B6B6E-CE75-48D3-A887-6B4BC0FA5C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{568B6B6E-CE75-48D3-A887-6B4BC0FA5C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{568B6B6E-CE75-48D3-A887-6B4BC0FA5C90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
